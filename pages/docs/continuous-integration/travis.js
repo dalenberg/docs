@@ -45,7 +45,7 @@ First of all, make sure you've signed up with Travis and synced the repositories
 
 Now that you have your token and have set up your GitHub account with Travis, you can start integrating Travis into your project. Start by creating a ${<InlineCode>.travis.yml</InlineCode>} file in the root of your repository.
 
-Next, go to the desired repository's settings in Travis (e.g. ${<InlineCode>https://travis-ci.org/:username/:repositroy/settings</InlineCode>}) and add a new environment variable with the value of your newly created Now token. If you call it ${<InlineCode>NOW_TOKEN</InlineCode>} you can then use it inside Travis CI configuration like the following for example:
+Next, go to the desired repository's settings in Travis (e.g. ${<InlineCode>https://travis-ci.org/:username/:repository/settings</InlineCode>}) and add a new environment variable with the value of your newly created Now token. If you call it ${<InlineCode>NOW_TOKEN</InlineCode>} you can then use it inside Travis CI configuration like the following for example:
 
 ${<TerminalInput>now --token $NOW_TOKEN</TerminalInput>}
 
