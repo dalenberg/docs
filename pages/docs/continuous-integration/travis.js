@@ -100,7 +100,7 @@ ${<Code>{
   "files": [
     ".next",
     "server",
-    "static,
+    "static",
     "package.json",
     "yarn.lock"
   ],
